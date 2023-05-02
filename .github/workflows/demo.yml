@@ -1,5 +1,8 @@
-name : Deployment Website
-on   : push
+name: Deployment Website
+on: 
+  push:
+    branches:
+      - main
 jobs :
   test :
     runs-on : ubuntu-latest
